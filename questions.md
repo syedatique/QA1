@@ -17,6 +17,9 @@
   * `"Ronnie " + "Pickering"`
   * `"Ronnie ".+("Pickering")`
   * `"Ronnie ".send(:+, "Pickering")`
+
+The Synatactic Sugar peoperty of Ruby accepts all of these forms; result wouls be all same = "RonniePickering"
+
 5. Please fix the following buggy expressions:
   * `number_six = 6`
   * `"Maroon" + 5.to_s`
