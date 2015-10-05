@@ -8,16 +8,16 @@
   * `t = "Troy"
     a = "Abed"
     "#{t} and #{a} in the Morning"` = Troy and Abed in the Morning
-  * `10 * 3`
-  * `10 ** 3`
-  * `10 % 3`
-  * `10 / 3`
-  * `0.7 + 0.1`
+  * `10 * 3`    = 30
+  * `10 ** 3`  = 1000
+  * `10 % 3` = 1
+  * `10 / 3`   = 3
+  * `0.7 + 0.1`  = 0.8
 4. Can you explain why the expressions all give the same result?
   * `"Ronnie " + "Pickering"`
   * `"Ronnie ".+("Pickering")`
   * `"Ronnie ".send(:+, "Pickering")`
 5. Please fix the following buggy expressions:
-  * `number six = 6`
-  * `"Maroon" + 5`
-  * `ture == flase`
+  * `number_six = 6`
+  * `"Maroon" + 5.to_s`
+  * `true == false`
